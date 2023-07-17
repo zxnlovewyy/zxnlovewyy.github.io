@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Tags, GQZxn">
+    <meta name="keywords" content="tag, GQZxn">
     <meta name="description" content="这是我的博客网站！">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Tags | GQZxn</title>
+    <title>tag | GQZxn</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -310,12 +310,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">tags</h1>
+                    <h1 class="description center-align post-title">tag</h1>
                 </div>
             </div>
         </div>
@@ -464,91 +464,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <hr>
-<h2 id="title-Conda常用命令"><a href="#title-Conda常用命令" class="headerlink" title="title: Conda常用命令"></a>title: Conda常用命令</h2><p>Welcome to [我的博客]! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. 欢迎各位小可爱多多拜访哦😘😘😘<br>If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.<br>我爱你艳艳宝宝😘😘🌺🌺💓💓</p>
-<p><strong>conda常用命令</strong></p>
-<p>conda常用的命令。</p>
-<p>  1） conda list 查看安装了哪些包。</p>
-<p>  2） conda env list 或  conda info -e 查看当前存在哪些虚拟环境</p>
-<p>  3） conda update conda 检查更新当前conda</p>
-<p>  4） conda –version 查询conda版本</p>
-<p>  5） conda -h 查询conda的命令使用</p>
-<p>如果您的anaconda包含<code>pip</code>工具，则只能通过<code>pip uninstall numpy</code>卸载numpy</p>
-<p>pycharm中环境需要哪个包就在anaconda中activate 包环境 然后 pip install 包名称 </p>
-<p>要用 pip 安装指定版本的 Python 包，只需通过 &#x3D;&#x3D; 操作符 指定</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install robotframework==2.8.7</span><br></pre></td></tr></table></figure>
-
-
-
-<p>查看当前conda工具版本号</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda --version</span><br></pre></td></tr></table></figure>
-
-<p>查看包括版本的更多信息</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda info</span><br></pre></td></tr></table></figure>
-
-<p>更新conda至最新版本</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda update conda</span><br></pre></td></tr></table></figure>
-
-<p>查看conda帮助信息</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda -h</span><br></pre></td></tr></table></figure>
-
-<p>环境管理相关</p>
-<p>查看conda环境管理命令帮助信息</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda create --help</span><br></pre></td></tr></table></figure>
-
-<p>创建出来的虚拟环境所在的位置为conda路径下的env&#x2F;文件下,,默认创建和当前python版本一致的环境.</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda create --name envname</span><br></pre></td></tr></table></figure>
-
-<p>创建新环境时指定python版本为3.6，环境名称为python36</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda create --name python36 python=3.6</span><br></pre></td></tr></table></figure>
-
-<p>切换到环境名为python36的环境（默认是base环境），切换后可通过python -V查看是否切换成功</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda activate python36</span><br></pre></td></tr></table></figure>
-
-<p>返回前一个python环境</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda deactivate</span><br></pre></td></tr></table></figure>
-
-<p>显示已创建的环境，会列出所有的环境名和对应路径</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda info -e</span><br></pre></td></tr></table></figure>
-
-<p>删除虚拟环境</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda remove --name envname --all</span><br></pre></td></tr></table></figure>
-
-<p>指定python版本,以及多个包</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda create -n envname python=3.4 scipy=0.15.0 astroib numpy</span><br></pre></td></tr></table></figure>
-
-<p>查看当前环境安装的包</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">conda list   ##获取当前环境中已安装的包</span><br><span class="line">conda list -n python36   ##获取指定环境中已安装的包</span><br></pre></td></tr></table></figure>
-
-<p>克隆一个环境</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># clone_env 代指克隆得到的新环境的名称</span><br><span class="line"># envname 代指被克隆的环境的名称</span><br><span class="line">conda create --name clone_env --clone envname</span><br><span class="line"></span><br><span class="line">#查看conda环境信息</span><br><span class="line">conda info --envs</span><br></pre></td></tr></table></figure>
-
-<p>构建相同的conda环境(不通过克隆的方法)</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># 查看包信息</span><br><span class="line">conda list --explicit</span><br><span class="line"></span><br><span class="line"># 导出包信息到当前目录, spec-file.txt为导出文件名称,可以自行修改名称</span><br><span class="line">conda list --explicit &gt; spec-file.txt</span><br><span class="line"></span><br><span class="line"># 使用包信息文件建立和之前相同的环境</span><br><span class="line">conda create --name newenv --file spec-file.txt</span><br><span class="line"></span><br><span class="line"># 使用包信息文件向一个已经存在的环境中安装指定包</span><br><span class="line">conda install --name newenv --file spec-file.txt</span><br></pre></td></tr></table></figure>
-
-<p>查找包</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#模糊查找，即模糊匹配，只要含py字符串的包名就能匹配到</span><br><span class="line">conda search py   </span><br><span class="line"></span><br><span class="line">##查找包，--full-name表示精确查找，即完全匹配名为python的包</span><br><span class="line">conda search --full-name python</span><br></pre></td></tr></table></figure>
-
-<p>安装更新删除包</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">##在当前环境中安装包</span><br><span class="line">conda install scrapy  </span><br><span class="line"></span><br><span class="line">##在指定环境中安装包</span><br><span class="line">conda install -n python36 scrapy</span><br><span class="line"></span><br><span class="line">##在当前环境中更新包  </span><br><span class="line">conda update scrapy   </span><br><span class="line"></span><br><span class="line">##在指定环境中更新包</span><br><span class="line">conda update -n python36 scrapy  </span><br><span class="line"></span><br><span class="line">##更新当前环境所有包</span><br><span class="line">conda update --all   </span><br><span class="line"></span><br><span class="line">##在当前环境中删除包</span><br><span class="line">conda remove scrapy   </span><br><span class="line"></span><br><span class="line">##在指定环境中删除包</span><br><span class="line">conda remove -n python2 scrapy</span><br></pre></td></tr></table></figure>
-
-
-
-<p>Python管理</p>
-<p>查找可以安装的python</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 查找所有名称包含python的包</span><br><span class="line">conda search python</span><br><span class="line"></span><br><span class="line"># 查找全名为python的包</span><br><span class="line">conda search --full-name python</span><br></pre></td></tr></table></figure>
-
-<p>安装不同版本的Python</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">#在不影响当前版本的情况下,新建环境并安装不同版本的python</span><br><span class="line">#新建一个Python版本为3.6 名称为 py36 的环境</span><br><span class="line"></span><br><span class="line">conda create -n py36 python=3.6 anaconda</span><br><span class="line"></span><br><span class="line">#注:将py36替换为您要创建的环境的名称。 anaconda是元数据包，带这个会把base的基础包一起安装，不带的话新环境只包含python3.6相关的包。 python = 3.6是您要在此新环境中安装的软件包和版本。 这可以是任何包，例如numpy = 1.7，或多个包。</span><br><span class="line">#然后激活想要使用的环境即可</span><br><span class="line">conda activate py36</span><br><span class="line">#更新Python</span><br><span class="line"># 普通的更新python</span><br><span class="line">conda update python</span><br><span class="line"></span><br><span class="line"># 将python更新到另外一个版本/安装指定版本的python</span><br><span class="line">conda install python=3.6</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>分享环境</p>
-<p>如果你想把你当前的环境配置与别人分享，这样ta可以快速建立一个与你一模一样的环境（同一个版本的python及各种包）来共同开发&#x2F;进行新的实验。一个分享环境的快速方法就是给ta一个你的环境的.yml文件。</p>
-<p>首先通过activate target_env要分享的环境target_env，然后输入下面的命令会在当前工作目录下生成一个environment.yml文件</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda env export &gt; environment.yml</span><br></pre></td></tr></table></figure>
-
-<p>小伙伴拿到environment.yml文件后，将该文件放在工作目录下，可以通过以下命令从该文件创建环境</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda env create -f environment.yml</span><br></pre></td></tr></table></figure>
+                
                 
             </div>
             <hr/>
@@ -574,7 +490,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://zxnlovewyy.github.io/tags/index.html">https://zxnlovewyy.github.io/tags/index.html</a>
+                    <a href="https://zxnlovewyy.github.io/tag/index.html">https://zxnlovewyy.github.io/tag/index.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -784,13 +700,13 @@
                 <i class="far fa-dot-circle"></i>&nbsp;Current
             </div>
             <div class="card">
-                <a href="/tags/index.html">
+                <a href="/tag/index.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="tags">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="tag">
                         
-                        <span class="card-title">tags</span>
+                        <span class="card-title">tag</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -822,13 +738,13 @@
                 Current&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/tags/index.html">
+                <a href="/tag/index.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="tags">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="tag">
                         
-                        <span class="card-title">tags</span>
+                        <span class="card-title">tag</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
